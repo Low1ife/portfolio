@@ -10,7 +10,29 @@
     <link rel="stylesheet" href="assets/css/set.css">
 
     <style>
-        
+        h2 {
+            font-size: 80px;
+        }
+
+        .side {
+            width: 80px; height: 100vh;
+            background-color: #212121;
+            position: fixed;
+            left: 0; top: 0;
+        }
+        .side .port h3 {
+            color : #fff;
+            position: absolute;
+            left: -45px; bottom: 80px;
+            font-size: 30px;
+            transform: rotate(-90deg);
+            text-transform: uppercase;
+        }
+
+        #section1 {
+            background: url(assets/img/aboutMain.jpg) no-repeat center center;
+            background-size: cover;
+        }
     </style>
 </head>
 <body class="parallax">
@@ -19,26 +41,38 @@
     <main>
        <div class="contWrap">
             <section id="section1" class="content-item">
-               <h2>dsfsdfdsfsdfd</h2>
+               <div class="side">
+                    <div class="ham"></div>
+                    <div class="bar"></div>
+                    <div class="port">
+                        <h3>Portfolio</h3>
+                    </div>
+               </div>
             </section>
 
 
 
             <section id="section2"  class="content-item">
-                <h2>dsfsdfdsfsdfd</h2>
+                <h2>02</h2>
             </section>
             <section id="section3"  class="content-item">
-                <h2>dsfsdfdsfsdfd</h2>
+                <h2>03</h2>
             </section>
-            <section id="section4" class="content-item"></section>
-            <section id="section5" class="content-item"></section>
-            <section id="section6" class="content-item"></section>
+            <section id="section4" class="content-item">
+                <h2>04</h2>
+            </section>
+            <section id="section5" class="content-item">
+                <h2>05</h2>
+            </section>
+            <section id="section6" class="content-item">
+                <h2>06</h2>
+            </section>
        </div>
     </main>
 
 
 
-    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
     <script src="assets/js/base.js"></script>

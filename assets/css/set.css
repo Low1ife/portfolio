@@ -1,0 +1,17 @@
+.parallax {
+
+}
+.contWrap {
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.content-item {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-sizing: border-box;
+}

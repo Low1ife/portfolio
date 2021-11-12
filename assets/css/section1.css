@@ -1,0 +1,39 @@
+/* Side menu */
+.side {
+    width: 80px; height: 100vh;
+    background-color: #212121;
+    position: fixed;
+    left: 0; top: 0;
+}
+.side .ham {
+    width: 40px; height: 3px;
+    background-color: #fff;
+}
+.side .bar {
+    width: 1px; height: 60vh;
+    background-color: #fff;
+    margin-left: 40px;
+}
+.side .port {
+
+}
+.side .port h3 {
+    color : #fff;
+    font-size: 30px;
+    line-height: .8;
+    transform: rotate(-90deg);
+}
+
+/* section1- Main */
+#section1 {
+    background: url(../img/aboutMain.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100vw; height: 100vh;
+    z-index: -1;
+}
+#section1 .title {
+    font-size: 100px;
+    color : #fff;
+}
+#section1 .title .who {}
+#section1 .title .am {}

@@ -7,7 +7,7 @@
 
 
     //가로
-    const contentWrap = $(".contWrap");
+    const contentWrap = $("#contWrap");
     const contentItem = $(".content-item");
 
     let scrollTotalWidth = contentWrap.width();

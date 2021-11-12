@@ -1,7 +1,4 @@
-.parallax {
-
-}
-.contWrap {
+#contWrap {
     display: flex;
     position: fixed;
     left: 0;

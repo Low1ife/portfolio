@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link href="//db.onlinewebfonts.com/c/4c4c08af466e9ad071b6d69cf44093df?family=SaolDisplay-Regular" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/fonts.css">
     <link rel="stylesheet" href="assets/css/set.css">
@@ -14,7 +15,7 @@
 
         /* Side menu */
         .side {
-            width: 60px; height: 100vh;
+            width: 60px; height: 100%;
             background-color: #212121;
             position: fixed;
             left: 0; top: 0;
@@ -31,7 +32,7 @@
             background-color: #fff;
         }
         .side .bar {
-            width: 1px; height: 550px;
+            width: 1px; height: 70%;
             background-color: #464646;
             margin-left: 30px;
             margin-top: 15px;
@@ -51,28 +52,32 @@
         .main {
             background: url(assets/img/aboutMain.jpg) no-repeat center center;
             background-size: cover;
-            width: 100vw; height: 100vh;
+            width: 100%; height: 100%;
             display: flex;
         }
         .main .title {
-            width: 50vw; height: 100vh;
-        }
-        .main .title .titleText {
-            font-size: 9vw;
+            width: 50%; height: 100%;
             color : #fff;
-            line-height: .9;
-            margin-left: 100px;
-            transform : translateY(58vh);
+            margin-left: 8%;
+            transform: translateY(65%);
+            /* background-color: red; */
         }
-        .main .title .titleText .am {
-            margin-left: 150px;
+        .main .title .titleText h2{
+            font-size: 150px;
+            line-height: .9;
+        }
+        .main .title .titleText em {
+            margin-left: 10%;
         }
         .main .rec {
-            width: 50vw; height: 100vh;
+            width: 50%; height: 100%;
+        }
+        .main .rec img{
+            
         }
 
 
-        /* section2 */
+        /* 2page */
         .main2 {
             background-color: #212121;
             width: 100vw; height: 100vh;
@@ -127,9 +132,11 @@
         }
         .main2 .aboutSkill .skill h3 {
             margin-right: 5vh;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
         }
-        .main2 .aboutSkill .skill nav {
-            
+        .main2 .aboutSkill .skill nav li{
+            font-family: 'Montserrat', sans-serif;
         }
     </style>
 </head>
@@ -155,8 +162,7 @@
                 <div class="main">
                     <div class="title">
                         <div class="titleText">
-                            <h1 class="who">WHO</h1>
-                            <h1 class="am">AM I?</h1>
+                            <h2>WHO <br><em>AM I?</em></h2>
                        </div>
                     </div>
                     <div class="rec">

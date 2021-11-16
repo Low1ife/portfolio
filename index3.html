@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <style>
+      body {
+        margin: 0 auto;
+    }
+    footer {
+        height: 10vh;
+        position: fixed;
+        bottom: 0;
+    }
+    .scroll {
+        position: relative;
+        width: 100vw;
+        height: 0.5px;
+        background: #999;
+        top: calc(5vh + 20px);
+    }
+    .scrollbar {
+        position: relative;
+        border-radius: 25px;
+        color: white;
+        background-color: #333;
+        width: 400px;
+        height: 30px;
+        top: calc(5vh + 5px);
+    }
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    .wrapper {
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        height: 100vh;
+        width: 1500vw;
+    }
+    .thumbnail {
+        display: inline-block;
+        height: 100vh;
+        width: 100vw;
+        font-size: 20vw;
+        color: white;
+    }
+    .thumbnail:nth-child(1) {
+    background-color: red;
+    }
+    .thumbnail:nth-child(2) {
+    background-color: navy;
+    }
+    .thumbnail:nth-child(3) {
+    background-color: gray;
+    }
+    .thumbnail:nth-child(4) {
+    background-color: orange;
+    }
+    .thumbnail:nth-child(5) {
+    background-color: purple;
+    }
+    .thumbnail:nth-child(6) {
+    background-color: black;
+    }
+    .thumbnail:nth-child(7) {
+    background-color: green;
+    }
+    .thumbnail:nth-child(8) {
+    background-color: darkred;
+    }
+    .thumbnail:nth-child(9) {
+    background-color: teal;
+    }
+    .thumbnail:nth-child(10) {
+    background-color: steelblue;
+    }
+    .thumbnail:nth-child(11) {
+    background-color: salmon;
+    }
+    .thumbnail:nth-child(12) {
+    background-color: #972C20;
+    }
+    .thumbnail:nth-child(13) {
+    background-color: #72FAB6;
+    }
+    .thumbnail:nth-child(14) {
+    background-color: #7274FA;
+    }
+    .thumbnail:nth-child(15) {
+    background-color: #FAEC72;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+   <div class="wrapper">
+     <div class="thumbnail">1</div>
+     <div class="thumbnail">2</div>
+     <div class="thumbnail">3</div>
+     <div class="thumbnail">4</div>
+     <div class="thumbnail">5</div>
+     <div class="thumbnail">6</div>
+     <div class="thumbnail">7</div>
+     <div class="thumbnail">8</div>
+     <div class="thumbnail">9</div>
+     <div class="thumbnail">10</div>
+     <div class="thumbnail">11</div>
+     <div class="thumbnail">12</div>
+     <div class="thumbnail">13</div>
+     <div class="thumbnail">14</div>
+     <div class="thumbnail">15</div>
+   </div>
+</div>
+<footer>
+  <div class="scroll"></div>
+  <div class="scrollbar"></div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollToPlugin.min.js"></script>
+<script>
+  gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
+//const scrubValue = true;
+const scrubValue = 0.5;
+let container = document.querySelector('.container')
+const scrollBar = gsap.to('.scrollbar', { x: () => { return window.innerWidth - (400) }, ease: "none" })
+ScrollTrigger.create({
+    trigger: ".container",
+    start: "top top",
+    end: () => (container.scrollWidth - window.innerWidth),
+    pin: true,
+    anticipatePin: 1,
+    scrub: scrubValue,
+    animation: scrollBar,
+    invalidateOnRefresh: true,
+})
+let thumbNails = gsap.utils.toArray(".thumbnail");
+thumbNails.forEach((thumb, i) => {
+  if (thumb.classList.contains('fakePin')) {
+    function prevAll(element) {
+      var result = [];
+      while (element = element.previousElementSibling)
+          result.push(element);
+      return result;
+    }    
+    // console.log(prevAll(thumb))
+    var totalWidthToMove;
+    function getTotalWidthToMove() {
+      totalWidthToMove = 0;
+      prevAll(thumb).forEach((thumbBefore, i) => {
+        let style = thumbBefore.currentStyle || window.getComputedStyle(thumbBefore);      
+        let marginRight = parseInt(style.marginRight);
+        totalWidthToMove += thumbBefore.offsetWidth + marginRight;
+      });    
+      return totalWidthToMove;
+    }
+    //getTotalWidthToMove();    
+    //console.log(totalWidthToMove)
+    gsap.to(thumb, {
+      x: () => { return - getTotalWidthToMove() },
+      ease: "none",
+      scrollTrigger: {
+        trigger: ".wrapper",
+        start: 'top top',
+        scrub: scrubValue,
+        invalidateOnRefresh: true,
+        end: () => "+=" + getTotalWidthToMove(),
+      }
+    });
+  }
+  else {
+    gsap.to(thumb, {
+      x: () => { return - (container.scrollWidth) },
+      ease: "none",
+      scrollTrigger: {
+        trigger: ".wrapper",
+        start: 'top top',
+        scrub: scrubValue,
+        invalidateOnRefresh: true,
+        end: () => "+=" + (container.scrollWidth),
+      }
+    });
+  }
+  //console.log(thumb.offsetWidth)
+});
+</script>
+</body>
+</html>

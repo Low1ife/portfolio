@@ -27,3 +27,4 @@
 
         contentWrap.css("left" , -goLeft);
     });
+ 

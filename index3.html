@@ -12,293 +12,51 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/set.css">
   <style>
-    /* side menu */
-    .side {
-      width: 60px;
-      height: 100vh;
-      background-color: #212121;
-      position: fixed;
-      left: 0;
-      top: 0;
-      z-index: 10;
-      position: relative;
-    }
 
-    .side .sideContainer {
-      width: 35px;
-      height: 100%;
-      margin: 0 auto;
-    }
-
-    .side .sideContainer .hamBox {
-      width: 100%;
-      height: 5%;
-      margin-top: 20px;
-    }
-
-    .side .sideContainer .hamBox .ham {
-      width: 100%;
-      height: 3px;
-      background-color: #fff;
-      margin-bottom: 4px;
-      border-radius: 30px;
-    }
-
-    .side .sideContainer .bar {
-      width: 1px;
-      height: 73vh;
-      background-color: #464646;
-      margin: 0 auto;
-    }
-
-    .side .sideContainer .port {
-      width: 100%;
-      height: 10vw;
-      margin-bottom: 20px;
-    }
-
-    .side .sideContainer .port h3 {
-      color: #fff;
-      font-size: 25px;
-      transform: rotate(-90deg);
-      position: absolute;
-      left: -55%;
-      bottom: 7%;
-    }
-
-    /* 1page */
-    .thumbnail .section1 {
-      background: url(assets/img/aboutMain.jpg) no-repeat center center;
-      background-size: cover;
-      width: 100%;
-      height: 100%;
-    }
-
-    .section1 .title {
-      width: 70%;
-      height: 100%;
-      float: left;
-    }
-
-    .section1 .title h2 {
-      width: 100%;
-      height: 100%;
-      color: #fff;
-      font-size: 18vw;
-      margin-left: 5vw;
-      margin-top: 35%;
-      line-height: 0.9;
-    }
-
-    .section1 .title h2 em {
-      margin-left: 150px;
-    }
-
-    .section1 .rec {
-      width: 30%;
-      height: 100%;
-      float: right;
-    }
-
-    .section1 .rec img {}
-
-
-    /* 2page */
-    .container2 {
-      width: 80%;
-      margin: 0 auto;
-    }
-
-    .container2 .aboutTitle {
-      width: 100%;
-      height: 60%;
-      margin-top: 100px;
-      color: #fff;
-      display: flex;
-    }
-
-    .container2 .aboutTitle .myInfo {
-      width: 70%; height: 100%;
-    }
-    .container2 .aboutTitle .myInfo h2 {
-      font-size: 150px;
-      line-height: 0.9;
-    }
-    .container2 .aboutTitle .myInfo h2 em {
-      margin-left: 100px;
-    }
-    .container2 .aboutTitle .myInfo p {
-      margin-left: 100px;
-      font-family: 'Chosunilbo_myungjo';
-    }
-    .container2 .aboutTitle .aboutImg {
-      width: 30%; height: 100%;
-      
-    }
-    .container2 .aboutSkill {
-      width: 100%; height: 40%;
-      padding-top: 110px;
-      color : #fff;
-    }
-    .container2 .aboutSkill h3 {
-      float: left;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: bold;
-      width: 50%; height: 100px;
-    }
-    .container2 .aboutSkill nav li {
-      font-family: 'Montserrat', sans-serif;
-    }
-    .container2 .aboutSkill .skill1 {
-      width: 20%; height: 100%;
-      float: left;
-    }
-    .container2 .aboutSkill .skill2 {
-      width: 20%; height: 100%;
-      margin-left: 70px;
-      float: left;
-    }
-    .container2 .aboutSkill .skill3 {
-      width: 20%; height: 100%;
-      float: left;
-      margin-left: 100px;
-    }
-    .container2 .aboutSkill .skill4 {
-      width: 20%; height: 100%;
-      text-align: right;
-      float : right;
-    }
-
-
-    /* 3page */
-    .contList {
-      width: 100%; height: 100%;
-    }
-    .thumbnail .contList .rec{
-      width: 30%; height: 100%;
-      float: left;
-    }
-    .thumbnail .contList .rec img {
-      width: 100%; height: 100%;
-    }
-    .thumbnail .contList .cont {
-      width: 40%; height : 100%;
-      float: left;
-    }
   </style>
 </head>
 
 <body>
+  <header>
+    <div class="header">
+      <div class="ham"><span></span></div>
+      <div class="line"></div>
+      <div class="logo"><span>PORTFOLIO</span></div>
+    </div>
+  </header>
 
   <div class="container">
     <div class="wrapper">
-
-      <div class="side">
-        <div class="sideContainer">
-          <div class="hamBox">
-            <div class="ham"></div>
-            <div class="ham"></div>
-            <div class="ham"></div>
-          </div>
-          <div class="bar"></div>
-          <div class="port">
-            <h3>PORTFOLIO</h3>
-          </div>
-        </div>
-      </div>
-      <!-- //side -->
-
-      <div class="thumbnail">
-        <div class="section1">
-          <div class="title">
-            <h2>WHO <br><em>AM I?</em></h2>
-          </div>
-          <div class="rec">
-            <img src="assets/img/mainRec2.png" alt="">
-          </div>
+      <div id="section1" class="thumbnail">
+        <div class="sec1">
+          <h2>PORTFOLIO<br>SITE</h2>
         </div>
       </div>
       <!-- //section1 -->
 
-      <div class="thumbnail">
-        <div class="container2">
-          <div class="aboutTitle">
-            <div class="myInfo">
-              <h2>WHO <br><em>AM I?</em></h2>
+      <div id="section2" class="thumbnail">
+        <div class="container">
+          <div class="sec2">
+            <div class="info">
+              <h2>WHO<br> AM I?</h2>
               <p>상상한 아이디어를 바탕으로 구현하고, 저만의 것을 창조해나가는 과정이 흥미롭게 느껴집니다.<br>
                 때론 어딘가에서 막히고, 하루종일 붙잡고 있어도 해결하지 못하는것들이 있겠지만 가장 좋아하는<br>
                 영화배우인 Denzel Washington의 “Fail big”, “Fall foward” 와 같은 말 처럼<br>
                 크게 실패하고 넘어 지더라도 언제나 앞으로 넘어지면서 어디서 부딪혔는지 확인하고, 배워나가는<br>
                 자세로 개발자로써 성장해 나가겠습니다.</p>
-            </div>
-            <div class="aboutImg">
-              <img src="assets/img/wooseok2.svg" alt="">
-            </div>
-          </div>
-          <div class="aboutSkill">
-            <div class="skill1">
-              <h3>MY SKILL</h3>
-              <nav>
-                <ul>
-                  <li>Javascript</li>
-                  <li>Javascript</li>
-                  <li>Javascript</li>
-                  <li>Javascript</li>
-                  <li>Javascript</li>
-                </ul>
-              </nav>
-            </div>
-             <div class="skill2">
-              <h3>MY SKILL</h3>
-              <nav>
-                <ul>
-                  <li>Javascript</li>
-                  <li>Javascript</li>
-                  <li>Javascript</li>
-                  <li>Javascript</li>
-                  <li>Javascript</li>
-                </ul>
-              </nav>
-            </div>
-             <div class="skill3">
-              <h3>MY SKILL</h3>
-              <nav>
-                <ul>
-                  <li>Javascript</li>
-                  <li>Javascript</li>
-                  <li>Javascript</li>
-                  <li>Javascript</li>
-                  <li>Javascript</li>
-                </ul>
-              </nav>
-            </div>
-             <div class="skill4">
-              <h3>MY SKILL</h3>
-              <nav>
-                <ul>
-                  <li>Javascript</li>
-                  <li>Javascript</li>
-                  <li>Javascript</li>
-                  <li>Javascript</li>
-                  <li>Javascript</li>
-                </ul>
-              </nav>
+              <div class="sec2Img">
+                <img src="assets/img/wooseok.png" alt="">
+              </div>
             </div>
           </div>
         </div>
       </div>
+      <!-- //section2 -->
 
-      <div class="thumbnail">
-        <div class="contList">
-          <div class="rec">
-            <img src="assets/img/contRec.png" alt="">
-          </div>
-          <div class="cont"></div>
-          <div class="rec">
-            <img src="assets/img/contRec2.png" alt="">
-          </div>
-        </div>
+      <div id="section3" class="thumbnail">
+
       </div>
+      
       <div class="thumbnail">4</div>
       <div class="thumbnail">5</div>
       <div class="thumbnail">6</div>

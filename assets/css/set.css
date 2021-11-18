@@ -2,34 +2,6 @@
      margin: 0 auto;
  }
 
- /* footer {
-     height: 10vh;
-     position: fixed;
-     bottom: 0;
- }
-
- .scroll {
-     position: relative;
-     width: 100vw;
-     height: 0.5px;
-     background: #999;
-     top: calc(5vh + 20px);
- }
-
- .scrollbar {
-     position: relative;
-     border-radius: 25px;
-     color: white;
-     background-color: #333;
-     width: 400px;
-     height: 30px;
-     top: calc(5vh + 5px);
- }
-
- ::-webkit-scrollbar {
-     display: none;
- } */
-
  .wrapper {
      position: relative;
      display: -webkit-box;
@@ -41,24 +13,30 @@
 
  .thumbnail {
      display: inline-block;
+     position: relative;
      height: 100vh;
      width: 100vw;
  }
 
  .thumbnail:nth-child(1) {
-    
+     background: url(../img/main.jpg);
+     background-size: cover;
+     width: 150vw;
  }
 
  .thumbnail:nth-child(2) {
-     
+     background-color: #212121;
+     z-index: 1000;
  }
 
  .thumbnail:nth-child(3) {
-     background-color: #212121;
+     background-color: red;
+     z-index: 2000;
  }
 
  .thumbnail:nth-child(4) {
      background-color: #343434;
+     z-index: 2000;
  }
 
  .thumbnail:nth-child(5) {

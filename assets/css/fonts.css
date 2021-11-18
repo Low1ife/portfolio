@@ -1,9 +1,3 @@
-* {
-    font-family:"SaolDisplay-Regular";
-    font-weight: normal;
-}
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
-
 @font-face {
     font-family: 'Chosunilbo_myungjo';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');

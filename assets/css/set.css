@@ -90,25 +90,59 @@
  }
 
  .thumbnail:nth-child(12) {
-      background-color: #fff;
-      z-index: 11000;
-      overflow: hidden;
+     background-color: #fff;
+     z-index: 11000;
+     overflow: hidden;
  }
 
  .thumbnail:nth-child(13) {
-     background-color: #72FAB6;
+     background-color: #fff;
+     z-index: 12000;
+     overflow: hidden;
  }
 
  .thumbnail:nth-child(14) {
-     background-color: #7274FA;
+     background-color: #fff;
+     z-index: 13000;
+     overflow: hidden;
  }
 
  .thumbnail:nth-child(15) {
-     background-color: #FAEC72;
+     background-color: #fff;
+     z-index: 14000;
+     overflow: hidden;
  }
-  .thumbnail:nth-child(16) {
-      background-color: red;
-  }
-   .thumbnail:nth-child(17) {
-       background-color: blue;
-   }
+
+ .thumbnail:nth-child(16) {
+     background-color: #f4f3f3;
+     z-index: 14000;
+     overflow: hidden;
+ }
+
+ .thumbnail:nth-child(17) {
+     background: url(../img/animationbg.jpg) no-repeat center;
+     background-size: cover;
+     z-index: 15000;
+     overflow: hidden;
+ }
+
+ .thumbnail:nth-child(18) {
+     background-color: #000;
+     z-index: 16000;
+     width: 150vw;
+ }
+ .thumbnail:nth-child(19) {
+     background-color: blue;
+ }
+ .thumbnail:nth-child(20) {
+     background-color: blue;
+ }
+ .thumbnail:nth-child(21) {
+     background-color: blue;
+ }
+ .thumbnail:nth-child(22) {
+     background-color: blue;
+ }
+ .thumbnail:nth-child(23) {
+     background-color: blue;
+ }

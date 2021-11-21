@@ -8,7 +8,7 @@
      display: -ms-flexbox;
      display: flex;
      height: 100vh;
-     width: 5000vw;
+     width: 2450vw;
  }
 
  .thumbnail {
@@ -131,18 +131,25 @@
      z-index: 16000;
      width: 150vw;
  }
+
  .thumbnail:nth-child(19) {
-     background-color: blue;
+     background-color: #000;
+     z-index: 17000;
+     width: 150vw;
  }
+
  .thumbnail:nth-child(20) {
-     background-color: blue;
+     background-color: #000;
+     z-index: 18000;
+     width: 150vw;
  }
+
  .thumbnail:nth-child(21) {
-     background-color: blue;
+     background-color: #000;
+     z-index: 19000;
+     width: 150vw;
  }
+
  .thumbnail:nth-child(22) {
-     background-color: blue;
- }
- .thumbnail:nth-child(23) {
-     background-color: blue;
+     background-color: #343434;
  }

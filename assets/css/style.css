@@ -912,3 +912,342 @@ header {
     padding: 10px 40px;
     margin-left: 10px;
 }
+
+/* section13 */
+#section13::before {
+    content: '';
+    width: 40vw;
+    height: 100vh;
+    background-color: #f4f3f3f3;
+    position: absolute;
+    left: -15%;
+    top: 0;
+    transform: skew(-20deg);
+    z-index: -1;
+}
+
+#section13::after {
+    content: '';
+    width: 40vw;
+    height: 100vh;
+    background-color: #f4f3f3;
+    position: absolute;
+    right: -15%;
+    top: 0;
+    transform: skew(-20deg);
+    z-index: -1;
+}
+
+#section13 .container {
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#section13 .sec13 {
+    width: 100%;
+    height: 100%;
+}
+
+#section13 .sec13 .sample {
+    width: 65%;
+    height: 80%;
+    padding-top: 10%;
+    z-index: 1;
+}
+
+#section13 .sec13 .sample iframe {
+    width: 100%;
+    height: 80%;
+}
+
+#section13 .webDesc {
+    width: 35%;
+    height: 100%;
+    position: absolute;
+    right: 3%;
+    top: 59%;
+    color: #000;
+    text-align: right;
+}
+
+#section13 .webDesc .standard_title {
+    font-family: "SaolDisplay-Regular";
+    font-size: 2.3vw;
+    margin-bottom: 2%;
+}
+
+#section13 .webDesc .standard_desc {
+    font-family: 'Chosunilbo_myungjo';
+    font-size: 1.1vw;
+    line-height: 2;
+    margin-bottom: 5%;
+}
+
+#section13 .webDesc .view {}
+
+#section13 .webDesc .view a {
+    color: #000;
+    border: 1px solid #000;
+    font-family: 'Chosunilbo_myungjo';
+    padding: 10px 40px;
+    margin-left: 10px;
+}
+
+/* section14 */
+#section14::before {
+    content: '';
+    width: 40vw;
+    height: 100vh;
+    background-color: #f4f3f3f3;
+    position: absolute;
+    left: -15%;
+    top: 0;
+    transform: skew(-20deg);
+    z-index: -1;
+}
+
+#section14::after {
+    content: '';
+    width: 40vw;
+    height: 100vh;
+    background-color: #f4f3f3;
+    position: absolute;
+    right: -15%;
+    top: 0;
+    transform: skew(-20deg);
+    z-index: -1;
+}
+
+#section14 .container {
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#section14 .sec14 {
+    width: 100%;
+    height: 100%;
+}
+
+#section14 .sec14 .sample {
+    width: 65%;
+    height: 80%;
+    padding-top: 10%;
+    z-index: 1;
+}
+
+#section14 .sec14 .sample iframe {
+    width: 100%;
+    height: 80%;
+}
+
+#section14 .webDesc {
+    width: 35%;
+    height: 100%;
+    position: absolute;
+    right: 3%;
+    top: 59%;
+    color: #000;
+    text-align: right;
+}
+
+#section14 .webDesc .standard_title {
+    font-family: "SaolDisplay-Regular";
+    font-size: 2.3vw;
+    margin-bottom: 2%;
+}
+
+#section14 .webDesc .standard_desc {
+    font-family: 'Chosunilbo_myungjo';
+    font-size: 1.1vw;
+    line-height: 2;
+    margin-bottom: 5%;
+}
+
+#section14 .webDesc .view {}
+
+#section14 .webDesc .view a {
+    color: #000;
+    border: 1px solid #000;
+    font-family: 'Chosunilbo_myungjo';
+    padding: 10px 40px;
+    margin-left: 10px;
+}
+
+/* section15 */
+#section15::before {
+    content: '';
+    width: 40vw;
+    height: 100vh;
+    background-color: #f4f3f3f3;
+    position: absolute;
+    left: -15%;
+    top: 0;
+    transform: skew(-20deg);
+    z-index: -1;
+}
+
+#section15::after {
+    content: '';
+    width: 40vw;
+    height: 100vh;
+    background-color: #f4f3f3;
+    position: absolute;
+    right: -15%;
+    top: 0;
+    transform: skew(-20deg);
+    z-index: -1;
+}
+
+#section15 .container {
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#section15 .sec15 {
+    width: 100%;
+    height: 100%;
+}
+
+#section15 .sec15 .sample {
+    width: 65%;
+    height: 80%;
+    padding-top: 10%;
+    z-index: 1;
+}
+
+#section15 .sec15 .sample iframe {
+    width: 100%;
+    height: 80%;
+}
+
+#section15 .webDesc {
+    width: 35%;
+    height: 100%;
+    position: absolute;
+    right: 3%;
+    top: 55%;
+    color: #000;
+    text-align: right;
+}
+
+#section15 .webDesc .standard_title {
+    font-family: "SaolDisplay-Regular";
+    font-size: 2.3vw;
+    margin-bottom: 2%;
+}
+
+#section15 .webDesc .standard_desc {
+    font-family: 'Chosunilbo_myungjo';
+    font-size: 1.1vw;
+    line-height: 2;
+    margin-bottom: 5%;
+}
+
+#section15 .webDesc .view {}
+
+#section15 .webDesc .view a {
+    color: #000;
+    border: 1px solid #000;
+    font-family: 'Chosunilbo_myungjo';
+    padding: 10px 40px;
+    margin-left: 10px;
+}
+
+#section17::before {
+     content : '';
+     width: 50vw;
+     height: 100vh;
+     background-color: #000;
+     transform : skew(-20deg);
+     position: absolute;
+     right: -30%;
+     top: 0;
+     overflow: hidden;
+     z-index: -100;
+}
+#section17 .sec17 h2 {
+     font-size: 10vw;
+     color: #fff;
+     line-height: 0.9;
+     position: absolute;
+     left: 80px;
+     bottom: 0;
+     font-family: "SaolDisplay-Regular";
+     font-weight: lighter;
+}
+#section17 .sec17 h2 em {
+    margin-left: 45%;
+}
+
+/* section18 */
+#section18 {}
+#section18 .container {
+    width: 90%; height: 100%;
+    margin: 0 auto;
+}
+#section18 .sec18 {
+    width: 100%; height: 100%;
+}
+
+#section18 .sec18 .aniList {
+    width: 50%; height: 80%;
+    border-left : 1px solid #585454;
+    margin-top: 4.5%;
+    float: left;
+    /* background-color: blue; */
+}
+#section18 .sec18 .aniList h2 {
+    color : #fff;
+    font-size: 10vw;
+    display: inline-block;
+    font-family: "SaolDisplay-Regular";
+    font-weight: lighter;
+    padding-left: 7%;
+}
+#section18 .sec18 .aniList p {
+    font-size: 1vw;
+    color : #fff;
+    display: inline-block;
+    font-family: 'Chosunilbo_myungjo';
+    padding-left: 5%;
+    line-height: 1.9;
+}
+
+#section18 .sec18 .aniList .ani1 {
+    width: 100%; height: 25%;
+}
+#section18 .sec18 .aniList .ani2 {
+    width: 100%;
+    height: 25%;
+}
+#section18 .sec18 .aniList .ani2 p{
+    margin-left: 6.5%;
+}
+#section18 .sec18 .aniList .ani3 p {
+
+}
+#section18 .sec18 .aniList .ani4 p {
+    padding-left: 7.5%;
+}
+#section18 .sec18 .aniList .ani3 {
+    width: 100%;
+    height: 25%;
+}
+#section18 .sec18 .aniList .ani4 {
+    width: 100%;
+    height: 25%;
+}
+
+#section18 .sec18 .animation {
+    width: 49%;
+    height: 80%;
+    background-color: pink;
+    float: right;
+    margin-top: 4.5%;
+}
+#section18 .sec18 .animation iframe{
+    width: 100%; height: 100%;
+}

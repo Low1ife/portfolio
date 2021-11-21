@@ -8,7 +8,7 @@
      display: -ms-flexbox;
      display: flex;
      height: 100vh;
-     width: 1500vw;
+     width: 5000vw;
  }
 
  .thumbnail {
@@ -30,45 +30,69 @@
  }
 
  .thumbnail:nth-child(3) {
-     background-color: red;
+     background-color: #343434;
      z-index: 2000;
+     overflow: hidden;
  }
 
  .thumbnail:nth-child(4) {
-     background-color: #343434;
-     z-index: 2000;
+     background: url(../img/webstan.jpg) no-repeat center center;
+     background-size: cover;
+     overflow: hidden;
+     z-index: 3000;
  }
 
  .thumbnail:nth-child(5) {
-     background-color: purple;
+     background: url(../img/megabox.jpg) no-repeat center center;
+     background-size: cover;
+     overflow: hidden;
+     z-index: 4000;
  }
 
  .thumbnail:nth-child(6) {
-     background-color: black;
+     background: url(../img/goodnight.jpg) no-repeat center center;
+     background-size: cover;
+     overflow: hidden;
+     z-index: 5000;
  }
 
  .thumbnail:nth-child(7) {
-     background-color: green;
+     background: url(../img/applesite.jpg) no-repeat center center;
+     background-size: cover;
+     overflow: hidden;
+     z-index: 6000;
  }
 
  .thumbnail:nth-child(8) {
-     background-color: darkred;
+     background: url(../img/reactsite.jpg) no-repeat center center;
+     background-size: cover;
+     overflow: hidden;
+     z-index: 7000;
  }
 
  .thumbnail:nth-child(9) {
-     background-color: teal;
+     background: url(../img/scriptworks.jpg) no-repeat center center;
+     background-size: cover;
+     overflow: hidden;
+     z-index: 8000;
  }
 
  .thumbnail:nth-child(10) {
-     background-color: steelblue;
+     background-color: #343434;
+     z-index: 9000;
+     overflow: hidden;
  }
 
  .thumbnail:nth-child(11) {
-     background-color: salmon;
+     background-color: #f4f3f3;
+     z-index: 10000;
+     overflow: hidden;
  }
 
  .thumbnail:nth-child(12) {
-     background-color: #972C20;
+      background-color: #fff;
+      z-index: 11000;
+      overflow: hidden;
  }
 
  .thumbnail:nth-child(13) {
@@ -82,3 +106,9 @@
  .thumbnail:nth-child(15) {
      background-color: #FAEC72;
  }
+  .thumbnail:nth-child(16) {
+      background-color: red;
+  }
+   .thumbnail:nth-child(17) {
+       background-color: blue;
+   }

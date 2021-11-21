@@ -1,9 +1,11 @@
+
 /* header */
 header {
     position : relative;
     color : #fff;
     text-align: center;
     flex-direction: column;
+    font-family: "SaolDisplay-Regular";
 }
 .header {
     width: 60px; height: 100vh;
@@ -68,9 +70,14 @@ header {
     line-height: 0.9;
     position: absolute;
     left: 100px; bottom: 0;
+    font-family: "SaolDisplay-Regular";
+    font-weight: lighter;
 }
 
 /* section2 */
+#section2 {
+
+}
 #section2 ::before {
     content : '';
     width: 40vw; height: 100vh;
@@ -81,18 +88,827 @@ header {
     overflow: hidden;
     z-index: -100;
 }
+
 #section2 .container {
-    width: 80%;
+    width: 90%;
+    height: 100%;
     margin: 0 auto;
 }
-#section2 .sec2 .info {
-   color : #fff;
-   background-color: red;
+
+#section2 .container .sec2 {
+    width: 100%; height: 100%;
 }
-#section2 .sec2 h2 {
-    font-size: 12vw;
+#section2 .container .sec2 .info {
+    width: 100%; height: 70%;
+    padding-top: 5%;
+}
+#section2 .container .sec2 .info .desc {
+    width: 60%; height: 100%;
+    float: left;
+    color :#fff;
+    font-family: "SaolDisplay-Regular";
+}
+#section2 .container .sec2 .info .desc span {
+    font-size: 10vw;
     line-height: 0.9;
 }
-#section2 .sec2Img {
+#section2 .container .sec2 .info .desc span em{
+    margin-left: 70px;
+}
+#section2 .container .sec2 .info .desc p {
+    font-family: 'Chosunilbo_myungjo';
+    margin-left: 70px;
+    margin-top: 30px;
+    font-size: 1vw;
+    line-height: 1.8;
+}
+#section2 .container .sec2 .info .infoImg {
+     width: 33%;
+     height: 90%;
+     float: right;
+}
+#section2 .container .sec2 .info .infoImg img {
+    width: 100%; height: 100%;
+}
+
+
+
+#section2 .container .sec2 .skill {
+    width: 100%; height: 30%;
+    color : #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+#section2 .container .sec2 .skill a{
+    color: #fff;
+}
+#section2 .container .sec2 .skill .stitle {
+    width: 50%; height: 100%;
+    float: left;
+    text-align: left;
+    font-size: 1.2vw;
+    font-weight: 600;
+}
+#section2 .container .sec2 .skill .sList {
+    width: 50%; height: 100%;
+    float: left;
+}
+#section2 .container .sec2 .skill .sList li{
+    text-align: right;
+    margin-bottom: 7px;
+    font-size: 1vw;
+}
+
+
+#section2 .container .sec2 .skill .skill1 {
+    width: 20%; height: 100%;
+    float: left;
+    margin-right: 7%;
+}
+#section2 .container .sec2 .skill .skill2 {
+    width: 20%;
+    height: 100%;
+    float: left;
+    margin-right: 7%;
+}
+#section2 .container .sec2 .skill .skill3 {
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+#section2 .container .sec2 .skill .skill4 {
+    width: 20%;
+    height: 100%;
     float : right;
+}
+
+
+/* section3 */
+#section3::before {
+    content : '';
+    width: 40vw; height: 100vh;
+    background-color: #212121;
+    position: absolute;
+    left: -15%; top: 0;
+    transform : skew(-20deg);
+}
+#section3::after {
+    content : '';
+    width: 40vw;
+    height: 100vh;
+    background-color: #212121;
+    transform : skew(-20deg);
+    position: absolute;
+    right: -15%;
+    top: 0;
+}
+.sec3 .siteList {
+    font-family: "SaolDisplay-Regular";
+    color :#fff;
+    font-size: 7vw;
+    position: absolute;
+    left: 50%; top: 50%;
+    transform : translate(-50% , -50%);
+    text-align: center;
+    width: 100%; height: 100%;
+    margin-top: 4%;
+}
+.sec3 .siteList p{
+    line-height: 1.4;
+}
+.sec3 .siteList .site1 {
+    margin-left: 10%;
+}
+.sec3 .siteList .site2 {
+    margin-left: 8%;
+}
+.sec3 .siteList .site3 {}
+.sec3 .siteList .site4 {
+    margin-right: 5%;
+}
+.sec3 .siteList .site5 {
+    margin-right: 10%;
+}
+
+
+/* section4 */
+#section4::before {
+    content : '';
+     width: 40vw;
+     height: 100vh;
+     background-color: #212121;
+     position: absolute;
+     left: -15%;
+     top: 0;
+     transform : skew(-20deg);
+}
+#section4::after {
+    content: '';
+    width: 40vw;
+    height: 100vh;
+    background-color:#212121;
+    position: absolute;
+    right: -15%;
+    top: 0;
+    transform: skew(-20deg);
+    z-index: -1;
+}
+#section4 .container {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#section4 .sec4 {
+    width: 100%; height: 100%;
+}
+
+
+#section4 .webDesc{
+    width: 100%; height: 80%;
+    position: absolute;
+    right: 5%; top: 50%;
+    color : #fff;
+    text-align: right;
+}
+#section4 .webDesc .standard_title {
+    font-family: "SaolDisplay-Regular";
+    font-size: 2.3vw;
+    margin-bottom: 2%;
+}
+#section4 .webDesc .standard_desc {
+    font-family: 'Chosunilbo_myungjo';
+    font-size: 1.1vw;
+    line-height: 2;
+    margin-bottom: 2%;
+}
+
+#section4 .webDesc .view {
+    
+}
+#section4 .webDesc .view a{
+    color : #fff;
+    border :1px solid #fff;
+    font-family: 'Chosunilbo_myungjo';
+    padding: 10px 40px;
+    margin-left: 10px;
+}
+
+
+#section4 .webTitle {
+    width: 100%; height: 20%;
+}
+#section4 .webTitle h3{
+    font-family: "SaolDisplay-Regular";
+    color : #fff;
+    font-size: 6vw;
+    font-weight: lighter;
+    position: absolute;
+    left: 25%; bottom: 0;
+}
+
+
+
+/* section5 */
+#section5::before {
+    content: '';
+    width: 40vw;
+    height: 100vh;
+    background-color: #212121;
+    position: absolute;
+    left: -15%;
+    top: 0;
+    transform: skew(-20deg);
+}
+
+#section5::after {
+    content: '';
+    width: 40vw;
+    height: 100vh;
+    background-color: #212121;
+    position: absolute;
+    right: -15%;
+    top: 0;
+    transform: skew(-20deg);
+    z-index: -1;
+}
+
+#section5 .container {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#section5 .sec5 {
+    width: 100%;
+    height: 100%;
+}
+
+
+#section5 .webDesc {
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    right: 5%;
+    top: 48%;
+    color: #fff;
+    text-align: right;
+}
+
+#section5 .webDesc .standard_title {
+    font-family: "SaolDisplay-Regular";
+    font-size: 2.3vw;
+    margin-bottom: 2%;
+}
+
+#section5 .webDesc .standard_desc {
+    font-family: 'Chosunilbo_myungjo';
+    font-size: 1.1vw;
+    line-height: 2;
+    margin-bottom: 2%;
+}
+
+#section5 .webDesc .view {}
+
+#section5 .webDesc .view a {
+    color: #fff;
+    border: 1px solid #fff;
+    font-family: 'Chosunilbo_myungjo';
+    padding: 10px 40px;
+    margin-left: 10px;
+}
+
+
+#section5 .webTitle {
+    width: 100%;
+    height: 20%;
+}
+
+#section5 .webTitle h3 {
+    font-family: "SaolDisplay-Regular";
+    color: #fff;
+    font-size: 6vw;
+    font-weight: lighter;
+    position: absolute;
+    left: 45%;
+    bottom: 0;
+}
+
+
+
+/* section6 */
+#section6::before {
+    content: '';
+    width: 40vw;
+    height: 100vh;
+    background-color: #212121;
+    position: absolute;
+    left: -15%;
+    top: 0;
+    transform: skew(-20deg);
+}
+
+#section6::after {
+    content: '';
+    width: 40vw;
+    height: 100vh;
+    background-color: #212121;
+    position: absolute;
+    right: -15%;
+    top: 0;
+    transform: skew(-20deg);
+    z-index: -1;
+}
+
+#section6 .container {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#section6 .sec6 {
+    width: 100%;
+    height: 100%;
+}
+
+
+#section6 .webDesc {
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    right: 5%;
+    top: 48%;
+    color: #fff;
+    text-align: right;
+}
+
+#section6 .webDesc .standard_title {
+    font-family: "SaolDisplay-Regular";
+    font-size: 2.3vw;
+    margin-bottom: 2%;
+}
+
+#section6 .webDesc .standard_desc {
+    font-family: 'Chosunilbo_myungjo';
+    font-size: 1.1vw;
+    line-height: 2;
+    margin-bottom: 2%;
+}
+
+#section6 .webDesc .view {}
+
+#section6 .webDesc .view a {
+    color: #fff;
+    border: 1px solid #fff;
+    font-family: 'Chosunilbo_myungjo';
+    padding: 10px 40px;
+    margin-left: 10px;
+}
+
+
+#section6 .webTitle {
+    width: 100%;
+    height: 20%;
+}
+
+#section6 .webTitle h3 {
+    font-family: "SaolDisplay-Regular";
+    color: #fff;
+    font-size: 6vw;
+    font-weight: lighter;
+    position: absolute;
+    left: 45%;
+    bottom: 0;
+}
+
+/* section7 */
+#section7::before {
+    content: '';
+    width: 40vw;
+    height: 100vh;
+    background-color: #212121;
+    position: absolute;
+    left: -15%;
+    top: 0;
+    transform: skew(-20deg);
+}
+
+#section7::after {
+    content: '';
+    width: 40vw;
+    height: 100vh;
+    background-color: #212121;
+    position: absolute;
+    right: -15%;
+    top: 0;
+    transform: skew(-20deg);
+    z-index: -1;
+}
+
+#section7 .container {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#section7 .sec7 {
+    width: 100%;
+    height: 100%;
+}
+
+
+#section7 .webDesc {
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    right: 5%;
+    top: 48%;
+    color: #fff;
+    text-align: right;
+}
+
+#section7 .webDesc .standard_title {
+    font-family: "SaolDisplay-Regular";
+    font-size: 2.3vw;
+    margin-bottom: 2%;
+}
+
+#section7 .webDesc .standard_desc {
+    font-family: 'Chosunilbo_myungjo';
+    font-size: 1.1vw;
+    line-height: 2;
+    margin-bottom: 2%;
+}
+
+#section7 .webDesc .view {}
+
+#section7 .webDesc .view a {
+    color: #fff;
+    border: 1px solid #fff;
+    font-family: 'Chosunilbo_myungjo';
+    padding: 10px 40px;
+    margin-left: 10px;
+}
+
+
+#section7 .webTitle {
+    width: 100%;
+    height: 20%;
+}
+
+#section7 .webTitle h3 {
+    font-family: "SaolDisplay-Regular";
+    color: #fff;
+    font-size: 6vw;
+    font-weight: lighter;
+    position: absolute;
+    left: 45%;
+    bottom: 0;
+}
+
+/* section8 */
+#section8::before {
+    content: '';
+    width: 40vw;
+    height: 100vh;
+    background-color: #212121;
+    position: absolute;
+    left: -15%;
+    top: 0;
+    transform: skew(-20deg);
+}
+
+#section8::after {
+    content: '';
+    width: 40vw;
+    height: 100vh;
+    background-color: #212121;
+    position: absolute;
+    right: -15%;
+    top: 0;
+    transform: skew(-20deg);
+    z-index: -1;
+}
+
+#section8 .container {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#section8 .sec8 {
+    width: 100%;
+    height: 100%;
+}
+
+
+#section8 .webDesc {
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    color: #fff;
+    text-align: right;
+}
+
+#section8 .webDesc .standard_title {
+    font-family: "SaolDisplay-Regular";
+    font-size: 2.3vw;
+    margin-bottom: 2%;
+}
+
+#section8 .webDesc .standard_desc {
+    font-family: 'Chosunilbo_myungjo';
+    font-size: 1.1vw;
+    line-height: 2;
+    margin-bottom: 2%;
+}
+
+#section8 .webDesc .view {}
+
+#section8 .webDesc .view a {
+    color: #fff;
+    border: 1px solid #fff;
+    font-family: 'Chosunilbo_myungjo';
+    padding: 10px 40px;
+    margin-left: 10px;
+}
+
+
+#section8 .webTitle {
+    width: 100%;
+    height: 20%;
+}
+
+#section8 .webTitle h3 {
+    font-family: "SaolDisplay-Regular";
+    color: #fff;
+    font-size: 6vw;
+    font-weight: lighter;
+    position: absolute;
+    left: 45%;
+    bottom: 0;
+}
+
+
+
+/* section9 */
+#section9::before {
+    content: '';
+    width: 40vw;
+    height: 100vh;
+    background-color: #212121;
+    position: absolute;
+    left: -15%;
+    top: 0;
+    transform: skew(-20deg);
+    z-index: -1;
+}
+
+#section9::after {
+    content: '';
+    width: 40vw;
+    height: 100vh;
+    background-color: #212121;
+    position: absolute;
+    right: -15%;
+    top: 0;
+    transform: skew(-20deg);
+    z-index: -1;
+}
+#section9 .sec9 {
+    width: 100%; height: 100%;
+}
+
+#section9 .sec9 .white {
+    width: 40%; height: 100%;
+    transform : skew(-20deg);
+    position: absolute;
+    left: -15%;
+    top: 0;
+    overflow: hidden;
+    color : #fff;
+}
+#section9 .sec9 .white p{
+    position: absolute;
+    left: 70%; bottom: 0;
+    font-size: 12vw;
+    transform: skew(20deg);
+    line-height: 0.9;
+    font-family: "SaolDisplay-Regular";
+}
+#section9 .sec9 .black {
+    width: 40%;
+    height: 100%;
+    transform : skew(-20deg);
+    position: absolute;
+    left: 25%;
+    top: 0;
+    overflow: hidden;
+    color : #000;
+}
+#section9 .sec9 .black p{
+    position: absolute;
+    left: -30%;
+    bottom: 0;
+    font-size: 12vw;
+    transform: skew(20deg);
+    line-height: 0.9;
+    font-family: "SaolDisplay-Regular";
+}
+
+
+/* section10 */
+#section10::before {
+    content: '';
+    width: 40vw;
+    height: 100vh;
+    background-color: #212121;
+    position: absolute;
+    left: -15%;
+    top: 0;
+    transform: skew(-20deg);
+}
+
+#section10::after {
+    content: '';
+    width: 40vw;
+    height: 100vh;
+    background-color: #212121;
+    transform: skew(-20deg);
+    position: absolute;
+    right: -15%;
+    top: 0;
+}
+
+.sec10 .siteList {
+    font-family: "SaolDisplay-Regular";
+    color: #fff;
+    font-size: 9vw;
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 4%;
+}
+
+.sec10 .siteList p {
+    line-height: 1.2;
+}
+
+.sec10 .siteList .site1 {
+    margin-left: 10%;
+}
+
+.sec10 .siteList .site2 {
+    margin-left: 3%;
+}
+
+.sec10 .siteList .site3 {
+    margin-right: 8%;
+}
+
+.sec10 .siteList .site4 {
+    margin-right: 14%;
+}
+
+/* section11 */
+#section11::before {
+    content: '';
+    width: 40vw;
+    height: 100vh;
+    background-color: #212121;
+    position: absolute;
+    left: -15%;
+    top: 0;
+    transform: skew(-20deg);
+    z-index: -1;
+}
+
+#section11 .sec11 {
+    width: 100%;
+    height: 100%;
+}
+
+#section11 .sec11 .white {
+    width: 40%;
+    height: 100%;
+    transform: skew(-20deg);
+    position: absolute;
+    left: -15%;
+    top: 0;
+    overflow: hidden;
+    color: #fff;
+}
+
+#section11 .sec11 .white p {
+    position: absolute;
+    left: 70%;
+    bottom: 0;
+    font-size: 12vw;
+    transform: skew(20deg);
+    line-height: 0.9;
+    font-family: "SaolDisplay-Regular";
+}
+
+#section11 .sec11 .black {
+    width: 40%;
+    height: 100%;
+    transform: skew(-20deg);
+    position: absolute;
+    left: 25%;
+    top: 0;
+    overflow: hidden;
+    color: #000;
+}
+
+#section11 .sec11 .black p {
+    position: absolute;
+    left: -30%;
+    bottom: 0;
+    font-size: 12vw;
+    transform: skew(20deg);
+    line-height: 0.9;
+    font-family: "SaolDisplay-Regular";
+}
+
+/* section12 */
+#section12::before {
+    content: '';
+    width: 40vw;
+    height: 100vh;
+    background-color: #f4f3f3f3;
+    position: absolute;
+    left: -15%;
+    top: 0;
+    transform: skew(-20deg);
+    z-index: -1;
+}
+
+#section12::after {
+    content: '';
+    width: 40vw;
+    height: 100vh;
+    background-color: #f4f3f3;
+    position: absolute;
+    right: -15%;
+    top: 0;
+    transform: skew(-20deg);
+    z-index: -1;
+}
+
+#section12 .container {
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#section12 .sec12 {
+    width: 100%;
+    height: 100%;
+}
+
+#section12 .sec12 .sample {
+    width: 65%; height: 80%;
+    padding-top: 10%;
+    z-index: 1;
+}
+
+#section12 .sec12 .sample iframe {
+    width: 100%; height: 80%;
+}
+#section12 .webDesc {
+     width: 35%;
+     height: 100%;
+     position: absolute;
+     right: 3%;
+     top: 55%;
+     color: #000;
+     text-align: right;
+}
+
+#section12 .webDesc .standard_title {
+    font-family: "SaolDisplay-Regular";
+    font-size: 2.3vw;
+    margin-bottom: 2%;
+}
+
+#section12 .webDesc .standard_desc {
+    font-family: 'Chosunilbo_myungjo';
+    font-size: 1.1vw;
+    line-height: 2;
+    margin-bottom: 5%;
+}
+
+#section12 .webDesc .view {}
+
+#section12 .webDesc .view a {
+    color: #000;
+    border: 1px solid #000;
+    font-family: 'Chosunilbo_myungjo';
+    padding: 10px 40px;
+    margin-left: 10px;
 }

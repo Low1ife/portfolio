@@ -1208,7 +1208,7 @@ header {
     padding-left: 7%;
 }
 #section18 .sec18 .aniList p {
-    font-size: 1vw;
+    font-size: 1.2vw;
     color : #fff;
     display: inline-block;
     font-family: 'Chosunilbo_myungjo';
@@ -1219,6 +1219,7 @@ header {
 #section18 .sec18 .aniList .ani1 {
     width: 100%; height: 25%;
 }
+
 #section18 .sec18 .aniList .ani2 {
     width: 100%;
     height: 25%;
@@ -1226,12 +1227,21 @@ header {
 #section18 .sec18 .aniList .ani2 p{
     margin-left: 6.5%;
 }
-#section18 .sec18 .aniList .ani3 p {
 
+
+#section18 .sec18 .aniList .ani3 p {
+    margin-left: 10%;
 }
+#section18 .sec18 .aniList .ani3 h2 {
+    margin-left: 7%;
+}
+
+
 #section18 .sec18 .aniList .ani4 p {
     padding-left: 7.5%;
 }
+
+
 #section18 .sec18 .aniList .ani3 {
     width: 100%;
     height: 25%;
@@ -1250,3 +1260,153 @@ header {
 #section18 .sec18 .animation iframe{
     width: 100%; height: 100%;
 }
+
+/* section19 */
+#section19 {}
+
+#section19 .container {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#section19 .sec19 {
+    width: 100%;
+    height: 100%;
+}
+
+#section19 .sec19 .aniList {
+    width: 50%;
+    height: 80%;
+    border-left: 1px solid #585454;
+    margin-top: 4.5%;
+    float: left;
+    /* background-color: blue; */
+}
+
+#section19 .sec19 .aniList h2 {
+    color: #fff;
+    font-size: 10vw;
+    display: inline-block;
+    font-family: "SaolDisplay-Regular";
+    font-weight: lighter;
+    padding-left: 7%;
+}
+
+#section19 .sec19 .aniList p {
+    font-size: 1.2vw;
+    color: #fff;
+    display: inline-block;
+    font-family: 'Chosunilbo_myungjo';
+    padding-left: 5%;
+    line-height: 1.9;
+}
+
+#section19 .sec19 .aniList .ani1 {
+    width: 100%;
+    height: 25%;
+}
+
+#section19 .sec19 .aniList .ani2 {
+    width: 100%;
+    height: 25%;
+}
+
+#section19 .sec19 .aniList .ani2 p {
+    margin-left: 6.5%;
+}
+
+
+#section19 .sec19 .aniList .ani3 p {
+    margin-left: 10%;
+}
+
+#section19 .sec19 .aniList .ani3 h2 {
+    margin-left: 7%;
+}
+
+
+#section19 .sec19 .aniList .ani4 p {
+    padding-left: 7.5%;
+}
+
+
+#section19 .sec19 .aniList .ani3 {
+    width: 100%;
+    height: 25%;
+}
+
+#section19 .sec19 .aniList .ani4 {
+    width: 100%;
+    height: 25%;
+}
+
+#section19 .sec19 .animation {
+    width: 49%;
+    height: 80%;
+    float: right;
+    margin-top: 4.5%;
+}
+
+#section19 .sec19 .animation iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/* section22 */
+#section22::before {
+    content: '';
+    width: 40vw;
+    height: 100vh;
+    background-color: #000;
+    position: absolute;
+    left: -20%;
+    top: 0;
+    transform: skew(-20deg);
+}
+#section22 .container {
+    width: 95%; height: 100%;
+    margin: 0 auto;
+}
+#section22 .container .sec22 {
+    width: 100%; height: 100%;
+    color : #fff;
+    font-family: "SaolDisplay-Regular";
+}
+#section22 .container .sec22 .phone {
+    width: 100%; height: 10%;
+    text-align: right;
+    padding-top: 5%;
+}
+#section22 .container .sec22 .phone p {
+    font-size: 2vw;
+}
+
+#section22 .container .sec22 .email {
+    width: 100%; height: 50%;
+    text-align: center;
+    padding-top: 5%;
+}
+#section22 .container .sec22 .email h2 {
+    font-size: 8vw;
+    font-weight: lighter;
+    margin-left: 15%;
+}
+
+#section22 .container .sec22 .sns {
+    text-align: center;
+    font-size: 1.5vw;
+    width: 100%; height: 10%;
+}
+#section22 .container .sec22 .sns nav {
+  
+}
+#section22 .container .sec22 .sns li {
+   display: inline-block;
+   padding-left: 7%;
+   padding-top: 5%;
+}
+#section22 .container .sec22 .sns li a{
+    color : #fff;
+}
+

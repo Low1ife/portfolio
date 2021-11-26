@@ -70,8 +70,8 @@ header {
     line-height: 0.9;
     position: absolute;
     left: 100px; bottom: 0;
-    font-family: "SaolDisplay-Regular";
     font-weight: lighter;
+    font-family: 'saol';
 }
 
 /* section2 */
@@ -106,7 +106,7 @@ header {
     width: 60%; height: 100%;
     float: left;
     color :#fff;
-    font-family: "SaolDisplay-Regular";
+    font-family: 'saol';
 }
 #section2 .container .sec2 .info .desc span {
     font-size: 10vw;
@@ -202,7 +202,7 @@ header {
 }
 
 #section3 .sec3 .siteList {
-    font-family: "SaolDisplay-Regular";
+    font-family: 'saol';
     color :#fff;
     font-size : 7vw;
     position: absolute;
@@ -270,7 +270,7 @@ header {
     text-align: right;
 }
 #section4 .webDesc .standard_title {
-    font-family: "SaolDisplay-Regular";
+    font-family: 'saol';
     font-size: 2.3vw;
     margin-bottom: 2%;
 }
@@ -297,7 +297,7 @@ header {
     width: 100%; height: 20%;
 }
 #section4 .webTitle h3{
-    font-family: "SaolDisplay-Regular";
+    font-family: 'saol';
     color : #fff;
     font-size: 6vw;
     font-weight: lighter;
@@ -354,7 +354,7 @@ header {
 }
 
 #section5 .webDesc .standard_title {
-    font-family: "SaolDisplay-Regular";
+    font-family: 'saol';
     font-size: 2.3vw;
     margin-bottom: 2%;
 }
@@ -383,7 +383,7 @@ header {
 }
 
 #section5 .webTitle h3 {
-    font-family: "SaolDisplay-Regular";
+    font-family: 'saol';
     color: #fff;
     font-size: 6vw;
     font-weight: lighter;
@@ -441,7 +441,7 @@ header {
 }
 
 #section6 .webDesc .standard_title {
-    font-family: "SaolDisplay-Regular";
+    font-family: 'saol';
     font-size: 2.3vw;
     margin-bottom: 2%;
 }
@@ -470,7 +470,7 @@ header {
 }
 
 #section6 .webTitle h3 {
-    font-family: "SaolDisplay-Regular";
+    font-family: 'saol';
     color: #fff;
     font-size: 6vw;
     font-weight: lighter;
@@ -526,7 +526,7 @@ header {
 }
 
 #section7 .webDesc .standard_title {
-    font-family: "SaolDisplay-Regular";
+    font-family: 'saol';
     font-size: 2.3vw;
     margin-bottom: 2%;
 }
@@ -555,7 +555,7 @@ header {
 }
 
 #section7 .webTitle h3 {
-    font-family: "SaolDisplay-Regular";
+    font-family: 'saol';
     color: #fff;
     font-size: 6vw;
     font-weight: lighter;
@@ -611,7 +611,7 @@ header {
 }
 
 #section8 .webDesc .standard_title {
-    font-family: "SaolDisplay-Regular";
+    font-family: 'saol';
     font-size: 2.3vw;
     margin-bottom: 2%;
 }
@@ -640,7 +640,7 @@ header {
 }
 
 #section8 .webTitle h3 {
-    font-family: "SaolDisplay-Regular";
+    font-family: 'saol';
     color: #fff;
     font-size: 6vw;
     font-weight: lighter;
@@ -694,7 +694,7 @@ header {
     font-size: 12vw;
     transform: skew(20deg);
     line-height: 0.9;
-    font-family: "SaolDisplay-Regular";
+    font-family: 'saol';
 }
 #section9 .sec9 .black {
     width: 40%;
@@ -713,7 +713,7 @@ header {
     font-size: 12vw;
     transform: skew(20deg);
     line-height: 0.9;
-    font-family: "SaolDisplay-Regular";
+    font-family: 'saol';
 }
 
 
@@ -745,7 +745,7 @@ header {
 }
 
 #section10 .sec10 .siteList {
-    font-family: "SaolDisplay-Regular";
+    font-family: 'saol';
     color: #fff;
     font-size: 9vw;
     position: absolute;
@@ -813,7 +813,7 @@ header {
     font-size: 12vw;
     transform: skew(20deg);
     line-height: 0.9;
-    font-family: "SaolDisplay-Regular";
+    font-family: 'saol';
 }
 
 #section11 .sec11 .black {
@@ -834,7 +834,7 @@ header {
     font-size: 12vw;
     transform: skew(20deg);
     line-height: 0.9;
-    font-family: "SaolDisplay-Regular";
+    font-family: 'saol';
 }
 
 /* section12 */
@@ -893,7 +893,7 @@ header {
 }
 
 #section12 .webDesc .standard_title {
-    font-family: "SaolDisplay-Regular";
+    font-family: 'saol';
     font-size: 2.3vw;
     margin-bottom: 2%;
 }
@@ -974,7 +974,7 @@ header {
 }
 
 #section13 .webDesc .standard_title {
-    font-family: "SaolDisplay-Regular";
+    font-family: 'saol';
     font-size: 2.3vw;
     margin-bottom: 2%;
 }
@@ -1055,7 +1055,7 @@ header {
 }
 
 #section14 .webDesc .standard_title {
-    font-family: "SaolDisplay-Regular";
+    font-family: 'saol';
     font-size: 2.3vw;
     margin-bottom: 2%;
 }
@@ -1136,7 +1136,7 @@ header {
 }
 
 #section15 .webDesc .standard_title {
-    font-family: "SaolDisplay-Regular";
+    font-family: 'saol';
     font-size: 2.3vw;
     margin-bottom: 2%;
 }
@@ -1177,7 +1177,7 @@ header {
      position: absolute;
      left: 80px;
      bottom: 0;
-     font-family: "SaolDisplay-Regular";
+     font-family: 'saol';
      font-weight: lighter;
 }
 #section17 .sec17 h2 em {
@@ -1203,7 +1203,7 @@ header {
 #section18 .sec18 .aniList h2 {
     color : #fff;
     font-size: 11.5vw;
-    font-family: "SaolDisplay-Regular";
+    font-family: 'saol';
     font-weight: lighter;
     margin-top: -3.5%;
     padding-left: 10%;
@@ -1271,7 +1271,7 @@ header {
     color: #fff;
     font-size: 10vw;
     display: inline-block;
-    font-family: "SaolDisplay-Regular";
+    font-family: 'saol';
     font-weight: lighter;
     padding-left: 7%;
 }
@@ -1354,7 +1354,7 @@ header {
 #section22 .container .sec22 {
     width: 100%; height: 100%;
     color : #fff;
-    font-family: "SaolDisplay-Regular";
+    font-family: 'saol';
 }
 #section22 .container .sec22 .phone {
     width: 100%; height: 10%;

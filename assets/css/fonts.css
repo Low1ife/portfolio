@@ -4,3 +4,11 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'saol';
+    src: url(../fonts/saol.woff2) format("woff2"), url(../fonts/saol.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
